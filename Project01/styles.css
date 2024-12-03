@@ -1,0 +1,24 @@
+#main{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+button{
+    padding: 20px;
+    border: 2px saddlebrown;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    
+}
+#color{
+    background-color: bisque;
+    text-align: center;
+    padding: 23px;
+    height: 30px;
+    width: 400px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
