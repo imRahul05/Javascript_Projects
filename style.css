@@ -1,0 +1,101 @@
+body.main-body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1.main-title {
+    color: #fff;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#kanban-board {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+#kanban-column {
+    background-color: #444;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 30%;
+       /* background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%); */
+}
+
+.column-title {
+    color: darkgreen;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.kanban-item {
+    background-color: #555;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+h3.project-title {
+    color: #ddd;
+    font-size: 1.2em;
+    margin: 0 0 5px 0;
+}
+
+a.project-link {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a.project-link:hover {
+    background-color: #0056b3;
+}
+.css-selector {
+    background: linear-gradient(128deg, #777877, #13a7c8);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 13s ease infinite;
+    -moz-animation: AnimationName 13s ease infinite;
+    animation: AnimationName 13s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
