@@ -1,5 +1,5 @@
 let moviesList = [];
-const baseURL = 'http://www.omdbapi.com/?apikey=588857ab';
+const baseURL = 'https://www.omdbapi.com/?apikey=588857ab';
 
 window.onload = () => {
     const lastSearch = localStorage.getItem('lastSearch');
